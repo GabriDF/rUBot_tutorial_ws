@@ -7,7 +7,7 @@ def talker():
     pub = rospy.Publisher('Ping', String, queue_size=10)
     rate = rospy.Rate(1) #1Hz = 1 Second.
     while not rospy.is_shutdown():
-        Phrase = "Pin"
+        Phrase = "Ping"
         rospy.loginfo(Phrase)
         pub.publish(Phrase)
         rate.sleep()
