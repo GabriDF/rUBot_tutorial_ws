@@ -8,7 +8,7 @@ def callback(msg):
         response.data = "Pong"
         rospy.loginfo(response)
         pub.publish(response)
-    else (msg.data != "Ping"):
+    else:
          response.data =  "Failed!"
          rospy.loginfo(response)
          pub.publish(response)   
