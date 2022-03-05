@@ -2,5 +2,5 @@
 
 <launch>
     <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
-    <node pkg="turtlesim_tutorial" type="go2pose.py" name="turtlebot_controller" output="screen" />
+    <node pkg="turtlesim_tutorial" type="TurtleAngle.py" name="turtlebot_controller" output="screen" />
 </launch>
